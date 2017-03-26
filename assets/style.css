@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+h4 {
+  margin-top: 0;
+}
+
+.header {
+  background-color: #f7f6f1;
+  padding-bottom: 20px;
+  margin-bottom: 10 px;
+}
+
+.video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

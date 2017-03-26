@@ -1,0 +1,336 @@
+- authors: L. Baraldi, C. Grana, R. Cucchiara
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000234_thumb.jpg
+  journal: Accepted at CVPR 2017
+  links:
+  - text: Arxiv
+    url: https://arxiv.org/abs/1611.09312
+  show: hotspot
+  title: Hierarchical Boundary-Aware Neural Encoder for Video Captioning
+  year: 2017
+- authors: M.Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000235_thumb.jpg
+  journal: Preprint
+  links:
+  - text: Arxiv
+    url: https://arxiv.org/abs/1611.09571
+  show: hotspot
+  title: Predicting Human Eye Fixations via an LSTM-based Saliency Attentive Model
+  year: 2016
+- authors: C. Grana, L. Baraldi, F. Bolelli
+  journal: ACIVS 2016
+  show: brief
+  title: Optimized Connected Components Labeling with Pixel Prediction
+  year: 2016
+- authors: F. Paci, L. Baraldi, G. Serra, R. Cucchiara
+  journal: ECCV 2016 Workshops
+  show: brief
+  title: Context Change Detection for an Ultra-Low Power Low-Resolution Ego-Vision
+    Imager
+  year: 2016
+- authors: M.Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  journal: ECCV 2016 Workshops
+  show: brief
+  title: 'Multi-Level Net: a Visual Saliency Prediction Model'
+  year: 2016
+- abstract: This paper presents a novel video access and retrieval system for edited
+    videos. The key element of the proposal is that videos are automatically decomposed
+    into semantically coherent parts (called scenes) to provide a more manageable
+    unit for browsing, tagging and searching. The system features an automatic annotation
+    pipeline, with which videos are tagged by exploiting both the transcript and the
+    video itself. Scenes can also be retrieved with textual queries; the best thumbnail
+    for a query is selected according to both semantics and aesthetics criteria.
+  authors: L. Baraldi, C. Grana, A. Messina, R. Cucchiara
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000150_thumb.jpg
+  journal: ACMMM 2016 Demo
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016_ACMMM_Demo.pdf
+  - text: Demo
+    url: http://imagelab.ing.unimore.it/neuralstory
+  pdf: papers/2016_ACMMM_Demo.pdf
+  show: hotspot
+  title: A Browsing and Retrieval System for Broadcast Videos using Scene Detection
+    and Automatic Annotation
+  year: 2016
+- abstract: The problem of labeling the connected components (CCL) of a binary image
+    is well-defined and several proposals have been presented in the past. Since an
+    exact solution to the problem exists and should be mandatory provided as output,
+    algorithms mainly differ on their execution speed. In this paper, we propose and
+    describe YACCLAB, Yet Another Connected Components Labeling Benchmark. Together
+    with a rich and varied dataset, YACCLAB contains an open source platform to test
+    new proposals and to compare them with publicly available competitors. Textual
+    and graphical outputs are automatically generated for three kinds of test, which
+    analyze the methods from different perspectives. The fairness of the comparisons
+    is guaranteed by running on the same system and over the same datasets. Examples
+    of usage and the corresponding comparisons among state-of-the-art techniques are
+    reported to confirm the potentiality of the benchmark.
+  authors: C. Grana, F. Bolelli, L. Baraldi, R. Vezzani
+  journal: ICPR 2016
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016-icpr-yacclab.pdf
+  - text: Code
+    url: https://github.com/prittt/YACCLAB
+  show: brief
+  title: YACCLAB - Yet Another Connected Components Labeling Benchmark
+  year: 2016
+- abstract: Document layout segmentation and recognition is an important task in the
+    creation of digitized documents collections, especially when dealing with historical
+    documents. This paper presents an hybrid approach to layout segmentation as well
+    as a strategy to classify document regions, which is applied to the process of
+    digitization of an historical encyclopedia. Our layout analysis method merges
+    a classic top-down approach and a bottom-up classification process based on local
+    geometrical features, while regions are classified by means of features extracted
+    from a Convolutional Neural Network merged in a Random Forest classifier. Experiments
+    are conducted on the first volume of the ``Enciclopedia Treccani, a large dataset
+    containing 999 manually annotated pages from the historical Italian encyclopedia.
+  authors: A. Corbelli, L. Baraldi, C. Grana, R. Cucchiara
+  journal: ICPR 2016
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016-icpr-treccani.pdf
+  show: brief
+  title: Historical Document Digitization through Layout Analysis and Deep Content
+    Classification
+  year: 2016
+- abstract: 'This paper presents a novel deep architecture for saliency prediction.
+    Current state of the art models for saliency prediction employ Fully Convolutional
+    networks that  perform a non-linear combination of features extracted from the
+    last convolutional layer to predict saliency maps. We propose an architecture
+    which, instead, combines features extracted at different levels of a Convolutional
+    Neural Network (CNN). Our model is composed of three main blocks: a feature extraction
+    CNN, a feature encoding network, that weights low and high level feature maps,
+    and a prior learning network. We compare our solution with state of the art saliency
+    models on two public benchmarks datasets. Results show that our model outperforms
+    under all evaluation metrics on the SALICON dataset, which is currently the largest
+    public dataset for saliency prediction, and achieves competitive results on the
+    MIT300 benchmark.'
+  authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000192_thumb.jpg
+  journal: ICPR 2016
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016-icpr-saliency.pdf
+  - text: Code
+    url: https://github.com/marcellacornia/mlnet
+  show: hotspot
+  title: A Deep Multi-Level Network for Saliency Prediction
+  year: 2016
+- abstract: This paper presents a novel retrieval pipeline for video collections,
+    which aims to retrieve the most significant parts of an edited video for a given
+    query, and represent them with thumbnails which are at the same time semantically
+    meaningful and aesthetically remarkable. Videos are first segmented into coherent
+    and story-telling scenes, then a retrieval algorithm based on deep learning is
+    proposed to retrieve the most significant scenes for a textual query. A ranking
+    strategy based on deep features is finally used to tackle the problem of visualizing
+    the best thumbnail. Qualitative and quantitative experiments are conducted on
+    a collection of edited videos to demonstrate the effectiveness of our approach.
+  authors: L. Baraldi, C. Grana, R. Cucchiara
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000150_thumb.jpg
+  journal: ICMR 2016
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016_ICMR.pdf
+  - text: Presentation
+    url: http://imagelab.ing.unimore.it/imagelab/uploadedFiles/20160607_ICMR.pdf
+  pdf: papers/2016_ICMR.pdf
+  show: hotspot
+  title: Scene-driven Retrieval in Edited Videos using Aesthetic and Semantic Deep
+    Features
+  year: 2016
+- abstract: This paper presents a complete system for shot and scene detection in
+    broadcast videos, as well as a method to select the best representative key-frames,
+    which could be used in new interactive interfaces for accessing large collections
+    of edited videos. The final goal is to enable an improved access to video footage
+    and the re-use of video content with the direct management of user-selected video-clips.
+  authors: L. Baraldi, C. Grana, G. Borghi, R. Vezzani, R. Cucchiara
+  journal: VISAPP 2015
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016_VISAPP.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/files/RaiSceneDetection.zip
+  pdf: papers/2016_VISAPP.pdf
+  show: brief
+  title: Shot, scene and keyframe ordering for interactive video re-use
+  year: 2016
+- abstract: Automatic layout analysis has proven to be extremely important in the
+    process of digitization of large amounts of documents. In this paper we present
+    a mixed approach to layout analysis, introducing a SVM-aided layout segmentation
+    process and a classification process based on local and geometrical features.
+    The final output of the automatic analysis algorithm is a complete and structured
+    annotation in JSON format, containing the digitalized text as well as all the
+    references to the illustrations of the input page, and which can be used by visualization
+    interfaces as well as annotation interfaces. We evaluate our algorithm on a large
+    dataset built upon the first volume of the "Enciclopedia Treccani".
+  authors: A. Corbelli, L. Baraldi, F. Balducci, C. Grana, R. Cucchiara
+  journal: IRCDL 2016
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016_IRCDL.pdf
+  pdf: papers/2016_IRCDL.pdf
+  show: brief
+  title: Layout analysis and content classification in digitized books
+  year: 2016
+- abstract: We present a model for scene detection that learns a distance measure
+    between shots. We go beyond traditional hand-crafted features and apply the deep
+    learning paradigm, exploiting both visual and textual features from the transcript.
+    Deeply learned features are then used together with a clustering algorithm to
+    segment the video. To the best of our knowledge, this is the first attempt to
+    use deep learning in this task. We also propose and release a new benchmark dataset.
+  authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: ACM Multimedia 2015
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015ACMM_Scenes.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/imagelab/page.asp?IdPage=5
+  - text: Caffe models
+    url: https://gist.github.com/baraldilorenzo/05b742d47220b487c8bd
+  pdf: papers/2015ACMM.pdf
+  show: brief
+  title: A Deep Siamese Network for Scene Detection in Broadcast Videos
+  year: 2015
+- abstract: Video decomposition techniques are fundamental tools for allowing effective
+    video browsing and re-using. In this work, we consider the problem of segmenting
+    broadcast videos into coherent scenes, and propose a scene detection algorithm
+    based on hierarchical clustering, along with a very fast state-of-the-art shot
+    segmentation approach. Experiments are performed to demonstrate the effectiveness
+    of our algorithms, by comparing against recent proposals for automatic shot and
+    scene segmentation.
+  authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: CAIP 2015
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015CAIP.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/files/RaiSceneDetection.zip
+  - text: Source code
+    url: http://imagelab.ing.unimore.it/files/ShotDetector.zip
+  pdf: papers/2015CAIP.pdf
+  show: brief
+  title: Shot and scene detection via hierarchical clustering for re-using broadcast
+    video
+  year: 2015
+- abstract: 'We introduce a novel approach to cultural heritage experience: by means
+    of ego-vision embedded devices we develop a system which offers a more natural
+    and entertaining way of accessing museum knowledge. Our method is based on distributed
+    self-gesture and artwork recognition, and does not need fixed cameras nor RFIDs
+    sensors. We propose the use of dense trajectories sampled around the hand region
+    to perform selfgesture recognition, understanding the way a user naturally interacts
+    with an artwork, and demonstrate that our approach can benefit from distributed
+    training. We test our algorithms on publicly available datasets and we extend
+    our experiments to both virtual and real museum scenarios where our method shows
+    robustness when challenged with real-world data. Furthermore, we run an extensive
+    performance analysis on our ARM-based wearable device.'
+  authors: L. Baraldi, F. Paci, G. Serra, L. Benini, R. Cucchiara
+  journal: IEEE Sensors Journal
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015IEEESens.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/files/ego_virtualmuseum.zip
+  pdf: papers/2015IEEESens.pdf
+  show: brief
+  title: Gesture Recognition using Wearable Vision Sensors to Enhance Visitors' Museum
+    Experiences
+  year: 2015
+- abstract: The advent of modern approaches to education, like Massive Open Online
+    Courses (MOOC), made video the basic media for educating and transmitting knowledge.
+    However, IT tools are still not adequate to allow video content re-use, tagging,
+    annotation and personalization. In this paper we analyze the problem of identifying
+    coherent sequences, called scenes, in order to provide the users with a more manageable
+    editing unit. A simple spectral clustering technique is proposed and compared
+    with state-of-the-art results. We also discuss correct ways to evaluate the performance
+    of automatic scene detection algorithms.
+  authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: IRCDL 2015
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015IRCDL.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/files/RaiSceneDetection.zip
+  pdf: papers/2015IRCDL.pdf
+  show: brief
+  title: Analysis and Re-use of Videos in Educational Digital Libraries with Automatic
+    Scene Detection
+  year: 2015
+- abstract: In this paper we evaluate the performance of scene detection techniques,
+    starting from the classic precision/recall approach, moving to the better designed
+    coverage/overflow measures, and finally proposing an improved metric, in order
+    to solve frequently observed cases in which the numeric interpretation is different
+    from the expected results. Numerical evaluation is performed on two recent proposals
+    for automatic scene detection, and comparing them with a simple but effective
+    novel approach. Experimental results are conducted to show how different measures
+    may lead to different interpretations.
+  authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: IbPRIA 2015
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015IbPRIA.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015IRCDL.pdf
+  pdf: papers/2015IbPRIA.pdf
+  show: brief
+  title: Measuring Scene Detection Performance
+  year: 2015
+- abstract: Scene detection is a fundamental tool for allowing effective video browsing
+    and re-using. In this paper we present a model that automatically divides videos
+    into coherent scenes, which is based on a novel combination of local image descriptors
+    and temporal clustering techniques. Experiments are performed to demonstrate the
+    effectiveness of our approach, by comparing our algorithm against two recent proposals
+    for automatic scene segmentation.
+  authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: ICME 2015
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2015ICME.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/files/RaiSceneDetection.zip
+  pdf: papers/2015ICME.pdf
+  show: brief
+  title: Scene segmentation using Temporal Clustering for Accessing and Re-using Broadcast
+    Video
+  year: 2015
+- abstract: We present a novel method for monocular hand gesture recognition in ego-vision
+    scenarios that deals with static and dynamic gestures and can achieve high accuracy
+    results using a few positive samples. Specifically, we use and extend the dense
+    trajectories approach that has been successfully  introduced for action recognition.
+    Dense features are extracted around regions selected by a new hand segmentation
+    technique that integrates superpixel classification, temporal and spatial coherence.
+    We extensively test our gesture recognition and segmentation algorithms on public
+    datasets and propose a new dataset shot with a wearable camera. In addition, we
+    demonstrate that our solution can work in near real-time on a wearable device.
+  authors: L. Baraldi, F. Paci, G. Serra, L. Benini, R. Cucchiara
+  journal: CVPR Workshop 2014
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2014EVW.pdf
+  - text: Dataset
+    url: http://imagelab.ing.unimore.it/files/ego_virtualmuseum.zip
+  pdf: papers/2014EVW.pdf
+  show: brief
+  title: Gesture Recognition in Ego-Centric Videos using Dense Trajectories and Hand
+    Segmentation
+  year: 2014
+- abstract: Portable devices for first-person camera views will play a central role
+    in future interactive systems. One necessary step for feasible human-computer
+    guided activities is gesture recognition, preceded by a reliable hand segmentation
+    from egocentric vision. In this work we provide a novel hand segmentation algorithm
+    based on Random Forest superpixel classification that integrates light, time and
+    space consistency. We also propose a gesture recognition method based Exemplar
+    SVMs since it requires a only small set of positive sampels, hence it is well
+    suitable for the egocentric video applications. Furthermore, this method is enhanced
+    by using segmented images instead of full frames during test phase. Experimental
+    results show that our hand segmentation algorithm outperforms the state-of-the-art
+    approaches and improves the gesture recognition accuracy on both the publicly
+    available EDSH dataset and our dataset designed for cultural heritage applications.
+  authors: G. Serra, M. Camurri, L. Baraldi, M. Benedetti, R. Cucchiara
+  journal: IMMPD 2013
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2013IMMPD.pdf
+  pdf: papers/2013IMMPD.pdf
+  show: brief
+  title: Hand Segmentation for Gesture Recognition in EGO-Vision
+  year: 2013

@@ -1,0 +1,41 @@
+<div class="row">
+<div class="col-md-12">
+  <h2>Publications</h2>
+	
+	{% assign publications = (site.data.publications | sort: 'year') | reverse %}
+	{% for p in publications %}
+		{% if p.show == 'hotspot' %}
+			<div class="row">
+				<div class="col-md-2">				  
+					<img src="{{ p.image }}" class="img-rounded img-responsive" />
+				</div>
+				<div class="col-md-10">
+				  <h4>{{ p.title }}</h4>
+				  <h5>{{ p.authors }}</h5>
+				  <h5>{{ p.journal }}
+				  {% if p.links %}
+					({% for l in  p.links %}<a href="{{ l.url }}">{{ l.text }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %})
+				  {% endif %}
+				  </h5>
+				</div>
+			  </div>
+			  <hr />		  
+		{% endif %}
+	{% endfor %}
+
+	{% for p in publications %}
+		{% if p.show != 'hotspot' %}
+			<div class="row">
+				<div class="col-md-12">
+				  <h5>{{ p.authors }}, <b>{{ p.title }}</b>, {{ p.journal }}
+				  {% if p.links %}
+					({% for l in  p.links %}<a href="{{ l.url }}">{{ l.text }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %})
+				  {% endif %}
+				  </h5>
+				</div>
+			</div>
+			{% if forloop.last %}<hr />{% endif %}		
+		{% endif %}
+	{% endfor %}
+</div>
+</div>	
