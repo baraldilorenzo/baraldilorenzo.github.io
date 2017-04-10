@@ -1,9 +1,19 @@
+- authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  journal: ICMEW 2017
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2017ICMEW.pdf
+  show: brief
+  title: Visual Saliency for Image Captioning in New Multimedia Services
+  year: 2017
 - authors: L. Baraldi, C. Grana, R. Cucchiara
   image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000234_thumb.jpg
-  journal: Accepted at CVPR 2017
+  journal: CVPR 2017
   links:
-  - text: Arxiv
-    url: https://arxiv.org/abs/1611.09312
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2017CVPR.pdf
+  - text: Project
+    url: http://imagelab.ing.unimore.it/video_captioning
   show: hotspot
   title: Hierarchical Boundary-Aware Neural Encoder for Video Captioning
   year: 2017
