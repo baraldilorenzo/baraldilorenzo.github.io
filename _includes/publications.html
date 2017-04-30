@@ -2,7 +2,7 @@
 <div class="col-md-12">
   <h2>Publications</h2>
 	
-	{% assign publications = (site.data.publications | sort: 'year') | reverse %}
+	{% assign publications = site.data.publications %}
 	{% for p in publications %}
 		{% if p.show == 'hotspot' %}
 			<div class="row">

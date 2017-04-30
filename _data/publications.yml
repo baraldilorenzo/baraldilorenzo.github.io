@@ -25,7 +25,15 @@
     url: https://arxiv.org/abs/1611.09571
   show: hotspot
   title: Predicting Human Eye Fixations via an LSTM-based Saliency Attentive Model
-  year: 2016
+  year: 2017
+- authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: IEEE Transactions on Multimedia
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016_TMM.pdf
+  show: brief
+  title: Recognizing and Presenting the Storytelling Video Structure with Deep Multimodal Networks
+  year: 2016  
 - authors: C. Grana, L. Baraldi, F. Bolelli
   journal: ACIVS 2016
   show: brief
