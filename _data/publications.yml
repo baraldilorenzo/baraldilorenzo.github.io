@@ -1,3 +1,11 @@
+- authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: 15th International Workshop on Content-Based Multimedia Indexing
+  show: brief
+  title: NeuralStory: an Interactive Multimedia System for Video Indexing and Re-use
+  year: 2017
+  links:
+  - text: Demo
+    url: http://www.neuralstory.it
 - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
   journal: ICMEW 2017
   links:
