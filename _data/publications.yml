@@ -1,11 +1,3 @@
-- authors: L. Baraldi, C. Grana, R. Cucchiara
-  journal: 15th International Workshop on Content-Based Multimedia Indexing
-  show: brief
-  title: "NeuralStory: an Interactive Multimedia System for Video Indexing and Re-use"
-  year: 2017
-  links:
-  - text: Demo
-    url: http://www.neuralstory.it
 - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
   journal: ICMEW 2017
   links:
@@ -25,7 +17,18 @@
   show: hotspot
   title: Hierarchical Boundary-Aware Neural Encoder for Video Captioning
   year: 2017
-- authors: M.Cornia, L. Baraldi, G. Serra, R. Cucchiara
+- authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: 15th International Workshop on Content-Based Multimedia Indexing
+  show: hotspot
+  title: "NeuralStory: an Interactive Multimedia System for Video Indexing and Re-use"
+  year: 2017
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000150_thumb.jpg
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2017_cbmi.pdf
+  - text: Demo
+    url: http://www.neuralstory.it
+  - authors: M.Cornia, L. Baraldi, G. Serra, R. Cucchiara
   image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000235_thumb.jpg
   journal: Preprint
   links:
@@ -74,7 +77,7 @@
   - text: Demo
     url: http://imagelab.ing.unimore.it/neuralstory
   pdf: papers/2016_ACMMM_Demo.pdf
-  show: hotspot
+  show: brief
   title: A Browsing and Retrieval System for Broadcast Videos using Scene Detection
     and Automatic Annotation
   year: 2016
