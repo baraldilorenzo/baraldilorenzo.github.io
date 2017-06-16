@@ -1,3 +1,11 @@
+- authors: S. Pini, M. Cornia, L. Baraldi, R. Cucchiara
+  journal: ICIAP 2017
+  links:
+  - text: PDF
+    url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2017_ICIAP_Naming.pdf
+  show: brief
+  title: Towards Video Captioning with Naming: a Novel Dataset and a Multi-Modal Approach
+  year: 2017
 - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
   journal: ICMEW 2017
   links:
@@ -142,7 +150,7 @@
     url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2016-icpr-saliency.pdf
   - text: Code
     url: https://github.com/marcellacornia/mlnet
-  show: hotspot
+  show: brief
   title: A Deep Multi-Level Network for Saliency Prediction
   year: 2016
 - abstract: This paper presents a novel retrieval pipeline for video collections,
@@ -163,7 +171,7 @@
   - text: Presentation
     url: http://imagelab.ing.unimore.it/imagelab/uploadedFiles/20160607_ICMR.pdf
   pdf: papers/2016_ICMR.pdf
-  show: hotspot
+  show: brief
   title: Scene-driven Retrieval in Edited Videos using Aesthetic and Semantic Deep
     Features
   year: 2016
