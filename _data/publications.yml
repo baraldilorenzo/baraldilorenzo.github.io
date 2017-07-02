@@ -1,3 +1,11 @@
+- authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  journal: Preprint
+  links:
+  - text: Arxiv
+    url: https://arxiv.org/abs/1706.08474
+  show: brief
+  title: "Paying More Attention to Saliency: Image Captioning with Saliency and Context Attention"
+  year: 2017
 - authors: S. Pini, M. Cornia, L. Baraldi, R. Cucchiara
   journal: ICIAP 2017
   links:
