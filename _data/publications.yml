@@ -1,4 +1,24 @@
-- authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+- authors: M. Cornia, S. Pini, L. Baraldi, R. Cucchiara
+  journal: IRCDL 2018
+  show: brief
+  title: "Automatic image cropping and selection using saliency: an application to historical manuscripts"
+  year: 2018
+- authors: S. Pini, O. Ben Ahmed, M. Cornia, L. Baraldi, R. Cucchiara, B. Huet
+  journal: ICMI 2017
+  show: brief
+  title: "Modeling multimodal cues in a deep learning-based framework for emotion recognition in the wild"
+  year: 2017
+- authors: M. Cornia, D. Abati, L. Baraldi, A. Palazzi, S. Calderara, R. Cucchiara
+  journal: AI*IA 2017
+  show: brief
+  title: "Attentive models in vision: Computing saliency maps in the deep learning era"
+  year: 2017
+- authors: L. Baraldi, C. Grana, R. Cucchiara
+  journal: IRCDL 2017
+  show: brief
+  title: "A video library system using scene detection and automatic tagging"
+  year: 2017  
+ - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
   journal: Preprint
   links:
   - text: Arxiv
