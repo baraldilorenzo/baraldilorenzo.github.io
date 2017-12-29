@@ -19,11 +19,12 @@
   title: "A video library system using scene detection and automatic tagging"
   year: 2017  
 - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
-  journal: Preprint
+  journal: ACM Transactions on Multimedia Computing Communications and Applications
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000235_thumb.jpg
   links:
   - text: Arxiv
     url: https://arxiv.org/abs/1706.08474
-  show: brief
+  show: hotspot
   title: "Paying More Attention to Saliency: Image Captioning with Saliency and Context Attention"
   year: 2017
 - authors: S. Pini, M. Cornia, L. Baraldi, R. Cucchiara
@@ -70,7 +71,7 @@
   links:
   - text: Arxiv
     url: https://arxiv.org/abs/1611.09571
-  show: hotspot
+  show: brief
   title: Predicting Human Eye Fixations via an LSTM-based Saliency Attentive Model
   year: 2017
 - authors: L. Baraldi, C. Grana, R. Cucchiara
