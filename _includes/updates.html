@@ -3,7 +3,7 @@
   <h2>News</h2>
   <ul>
 	{% for post in site.posts %}
-		<li>{{ post.title }}
+		<li>{{ post.date | date: "%d-%m-%Y"}} - {{ post.title }}
 		{% assign content_length = (post.content | size) | to_integer %}
 		{% if content_length > 10 %}
 		[<a href="{{ post.url }}">Read more</a>]
