@@ -1,3 +1,9 @@
+- authors: L. Baraldi, M. Douze, R. Cucchiara, H. Jegou
+  journal: CVPR 2018
+  show: hotspot
+  title: "LAMV: Learning to align and match videos with kernelized temporal layers"
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000395.png
+  year: 2018
 - authors: M. Cornia, S. Pini, L. Baraldi, R. Cucchiara
   journal: IRCDL 2018
   show: brief
