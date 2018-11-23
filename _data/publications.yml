@@ -1,3 +1,33 @@
+- authors: M. Tomei, L. Baraldi, M. Cornia, R. Cucchiara
+  journal: ECCVW 2018
+  show: brief
+  title:  "What was Monet seeing while painting? Translating artworks to photo-realistic images"
+  year: 2018
+- authors: A. Carraggi, M. Cornia, L. Baraldi, R. Cucchiara
+  journal: ECCVW 2018
+  show: brief
+  title:  "Visual-Semantic Alignment Across Domains Using a Semi-Supervised Approach"
+  year: 2018
+- authors: M. Cornia, L. Baraldi, H. Rezazadegan Tavakoli, R. Cucchiara
+  journal: ECCVW 2018
+  show: brief
+  title: "Towards Cycle-Consistent Models for Text and Image Retrieval"
+  year: 2018
+- authors: F. Bolelli, L. Baraldi, M. Cancilla, C. Grana
+  journal: ICPR 2018
+  show: brief
+  title: "Connected Components Labeling on DRAGs"
+  year: 2018
+- authors: L. Baraldi, M. Cornia, C. Grana, R. Cucchiara
+  journal: ICPR 2018
+  show: brief
+  title: "Aligning Text and Document Illustrations: towards Visually Explainable Digital Humanities"
+  year: 2018
+- authors: M. Cornia, D. Abati, L. Baraldi, A. Palazzi, S. Calderara, R. Cucchiara
+  journal: Intelligenza Artificiale
+  show: brief
+  title: "Attentive Models in Vision: Computing Saliency Maps in the Deep Learning Era" 
+  year: 2018
 - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
   journal: IEEE Transactions on Image Processing
   show: hotspot
@@ -6,6 +36,11 @@
   links:
   - text: PDF
     url: https://arxiv.org/pdf/1611.09571
+  year: 2018
+- authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  journal: CVPRW 2018
+  show: brief
+  title: "SAM: Pushing the Limits of Saliency Prediction Models"
   year: 2018
 - authors: L. Baraldi, M. Douze, R. Cucchiara, H. Jegou
   journal: CVPR 2018
@@ -16,11 +51,41 @@
   - text: PDF
     url: http://imagelab.ing.unimore.it/imagelab/pubblicazioni/2018_CVPR.pdf
   year: 2018
+- authors: F. Bolelli, M. Cancilla, L. Baraldi, C. Grana
+  journal: Journal of Real-Time Image Processing
+  show: brief
+  title: "Towards Reliable Experiments on the Performance of Connected Components Labeling Algorithms"
+  year: 2018
+- authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  journal: ACM Transactions on Multimedia Computing Communications and Applications
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000235_thumb.jpg
+  links:
+  - text: Arxiv
+    url: https://arxiv.org/abs/1706.08474
+  show: hotspot
+  title: "Paying More Attention to Saliency: Image Captioning with Saliency and Context Attention"
+  year: 2018
 - authors: M. Cornia, S. Pini, L. Baraldi, R. Cucchiara
   journal: IRCDL 2018
   show: brief
   title: "Automatic image cropping and selection using saliency: an application to historical manuscripts"
   year: 2018
+- authors: F. Bolelli, L. Baraldi, C. Grana
+  journal: IPAS 2018
+  show: brief
+  title: "A Hierarchical Quasi-Recurrent approach to Video Captioning"
+  year: 2018
+- authors: F. Bolelli, M. Cancilla, L. Baraldi, C. Grana
+  journal: ICPRW 2018
+  show: brief
+  title: "Connected Components Labeling on DRAGs: Implementation and Reproducibility Notes"
+  year: 2018
+- authors: S. Alletto, M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
+  journal: Multimodal Behavior Analysis in the Wild
+  show: brief
+  title: "Recognizing social relationships from an egocentric vision perspective"
+  year: 2019
+---------------------------
 - authors: S. Pini, O. Ben Ahmed, M. Cornia, L. Baraldi, R. Cucchiara, B. Huet
   journal: ICMI 2017
   show: brief
@@ -36,15 +101,6 @@
   show: brief
   title: "A video library system using scene detection and automatic tagging"
   year: 2017  
-- authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
-  journal: ACM Transactions on Multimedia Computing Communications and Applications
-  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000235_thumb.jpg
-  links:
-  - text: Arxiv
-    url: https://arxiv.org/abs/1706.08474
-  show: hotspot
-  title: "Paying More Attention to Saliency: Image Captioning with Saliency and Context Attention"
-  year: 2017
 - authors: S. Pini, M. Cornia, L. Baraldi, R. Cucchiara
   journal: ICIAP 2017
   links:
@@ -74,7 +130,7 @@
   year: 2017
 - authors: L. Baraldi, C. Grana, R. Cucchiara
   journal: 15th International Workshop on Content-Based Multimedia Indexing
-  show: hotspot
+  show: brief
   title: "NeuralStory: an Interactive Multimedia System for Video Indexing and Re-use"
   year: 2017
   image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000150_thumb.jpg
