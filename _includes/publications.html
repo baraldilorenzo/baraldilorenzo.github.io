@@ -14,9 +14,9 @@
 				  <h5>{{ p.authors }}</h5>
 				  <h5>{{ p.journal }}
 				  {% if p.links %}
-					<br />
+					<br /><br />
 					{% for l in  p.links %}
-					<a href="{{ l.url }}"><button type="button" class="btn btn-default">{{ l.text }}</button></a>{% if forloop.last == false %}<br />{% endif %}
+					<a href="{{ l.url }}"><button type="button" class="btn btn-default">{{ l.text }}</button></a>{% if forloop.last == false %}&nbsp;&nbsp;{% endif %}
 					{% endfor %}
 				  {% endif %}
 				  </h5>
