@@ -13,7 +13,7 @@
   journal: CVPR 2019
   show: hotspot
   title: "Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation"
-  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000474.jpg
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000474.png
   links:
   - text: PDF
     url: https://arxiv.org/pdf/1811.10666.pdf
