@@ -56,6 +56,8 @@
   links:
   - text: PDF
     url: https://arxiv.org/pdf/1611.09571
+  - text: Code
+    url: https://github.com/marcellacornia/sam
   year: 2018
 - authors: M. Cornia, L. Baraldi, G. Serra, R. Cucchiara
   journal: CVPRW 2018
@@ -82,7 +84,7 @@
   links:
   - text: Arxiv
     url: https://arxiv.org/abs/1706.08474
-  show: hotspot
+  show: brief
   title: "Paying More Attention to Saliency: Image Captioning with Saliency and Context Attention"
   year: 2018
 - authors: M. Cornia, S. Pini, L. Baraldi, R. Cucchiara
