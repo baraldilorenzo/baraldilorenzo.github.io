@@ -1,3 +1,23 @@
+- authors: M.Cornia, L. Baraldi, R. Cucchiara
+  journal: CVPR 2019
+  show: hotspot
+  title: "Show, Control and Tell: A Framework for Generating Grounded and Controllable Captions"
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000476.jpg
+  links:
+  - text: PDF
+    url: https://arxiv.org/pdf/1811.10652.pdf
+  - text: Code
+    url: https://github.com/aimagelab/show-control-and-tell
+  year: 2019
+- authors: M. Tomei, M. Cornia, L. Baraldi, R. Cucchiara
+  journal: CVPR 2019
+  show: hotspot
+  title: "Art2Real: Unfolding the Reality of Artworks via Semantically-Aware Image-to-Image Translation"
+  image: http://imagelab.ing.unimore.it/imagelab/uploadedImages/000474.jpg
+  links:
+  - text: PDF
+    url: https://arxiv.org/pdf/1811.10666.pdf
+  year: 2019
 - authors: M. Tomei, L. Baraldi, M. Cornia, R. Cucchiara
   journal: ECCVW 2018
   show: brief
